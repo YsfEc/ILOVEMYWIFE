@@ -1,0 +1,75 @@
+.body {
+    background-image: linear-gradient(rgb(32, 2, 80), rgb(48, 1, 78));
+    width: 150vh;
+    height: 150vh;
+}
+.svg, .svg1 {
+    position: absolute;
+    visibility: hidden;
+}
+.svg2 {
+    visibility: visible;
+}
+.svg22 {
+    margin-top: 320px;
+}
+.mainb {
+    position: absolute;
+    margin-top: 200px;
+}
+.wave {
+    margin-left: -50px;
+    margin-top: -170px;
+}
+.button {
+    visibility: hidden;
+    width: 150px;
+    height: 50px;
+    border-radius: 40px;
+    border: solid;
+    background-color: rgb(7, 10, 141);
+    color: rgb(7, 10, 141);
+    border-color: rgb(7, 8, 58);
+    opacity: 100%;
+}
+.h1 {
+    visibility: hidden;
+}
+.h1:after {
+    visibility: visible;
+    position: absolute;
+    font-family: 'Courier New', Courier, monospace;
+    content: "HAPPY ANNIVERSARY MY LITTLE PRINCESS";
+    background-image: linear-gradient(rgb(149, 0, 255), #330069);
+    color: transparent;
+    background-clip: text;
+    font-size: 70px;
+    margin-left: -240px;
+    margin-top: 150px;
+    z-index: 9999;
+}
+.h1:after {
+  font-family: "Sour Gummy", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.text {
+    visibility: hidden;
+}
+.text2 {
+    visibility: visible;
+    position: absolute;
+    z-index: 9998;
+    font-family: "Sour Gummy", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+    color: #9100c1;
+    font-size: 25px;
+    margin-top: 450px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
